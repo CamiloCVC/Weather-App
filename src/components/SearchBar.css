@@ -1,0 +1,41 @@
+.input { 
+    justify-items: center;
+    min-height: 40px;   
+    width: 300px;
+    color: #448881;
+    padding-left: 15px;
+    font-size: 15px;
+    background:  rgb(229 231 235/1);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    
+    border: 1px groove rgb(255, 255, 255);
+    font-family: 'Noto Sans Mono', monospace;
+  }    
+  @media (max-width: 400px){
+    .input{
+      width: 250px;
+    }
+  }
+
+  
+  .buttonSubmit {
+    position:relative;
+    left: -40px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform .2s;
+  }
+  
+  .buttonSubmit:hover {
+    transform: scale(1.3);  
+  }
+  
+  .input:focus, .input:focus-visible {
+    outline: none;
+  }

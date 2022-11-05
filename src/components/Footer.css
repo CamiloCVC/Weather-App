@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+	position: static;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;   
+    background-color: rgba(255, 255, 255, 0.605);
+}
+
+.redes{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+    
+    
+}
+
+.redes li{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border: none;
+    border-radius: 50%;
+    background-color: #448881;
+    margin: 8px;
+    padding: 2px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    transition: transform .2s;
+}
+
+.redes li:hover{
+    transform: scale(1.3);  
+}
