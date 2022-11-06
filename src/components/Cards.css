@@ -18,6 +18,9 @@
   align-self: center;
   margin: auto;
   opacity: 60%;
+  
+}
+.img-placeholder img{
   z-index: 2;
 }
 
