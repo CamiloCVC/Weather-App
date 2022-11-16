@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cards.css';
-import x from '../img/fondoplaceholder.png' 
+// import x from '../img/fondoplaceholder.png' 
 
 import Card from './Card.jsx';
 
@@ -22,7 +22,6 @@ export default function Cards({cities, onClose}) {
     else{
       return(
           <div className="img-placeholder">
-            <img src={x} alt="Not found" />
           </div>
         )}
 }
